@@ -13,7 +13,7 @@
 | 编号 | 项目名称 | 对应文件夹 |
 |:----:|:--------|:----------|
 ||✅已完成 ||||
-|   1  | implement the naïve birthday attack of reduced `SM3`<br> - 在16s内能找到sm3的一组碰撞 | [Project_01_SM3_BirthAttack](./Project_01_SM3_BirthAttack/)|
+|   1  | implement the naïve birthday attack of reduced `SM3`<br> - 在16s内能找到sm3的一组前8位碰撞 | [Project_01_SM3_BirthAttack](./Project_01_SM3_BirthAttack/)|
 |   2  | implement the Rho method of reduced `SM3`<br> - 采用碰撞部分bit的方法，8bit时间为5s |[Project_02_Rho_Attack_SM3](./Project_02_Rho_Attack_SM3/) |
 |   3  | implement length extension attack for `SM3`, `SHA256`, etc <br> - 选择md5进行长度扩展攻击 | [Project_03_padding_attack](./Project_03_padding_attack/) |
 |   4  | do your best to optimize `SM3` implementation (software) <br> - 最终实现加速比约为1.5  |[Project_04_optimize_SM3](./Project_04_optimize_SM3/) |
